@@ -1,44 +1,52 @@
-# DSA Playground
+# DSA Vault
 
-Sharpening problem-solving skills, one question at a time.
+> Code hard. Think deeper. Repeat daily.
 
-This repository is my personal Data Structures and Algorithms practice space. I solve problems regularly, organize code cleanly, and keep a visible progress trail.
+Welcome to my personal DSA practice repository where I solve, refine, and document problem-solving patterns for interview prep and competitive coding.
 
-## What You Will Find
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+![Focus](https://img.shields.io/badge/Focus-DSA%20Practice-blue?style=for-the-badge)
+![Consistency](https://img.shields.io/badge/Habit-Daily-orange?style=for-the-badge)
 
-- Structured solutions inside the `CODE/` folder
-- Topic-wise and platform-wise problem practice
-- Clean, readable implementations with consistent style
-- A long-term log of progress and learning
+## Why This Repo Exists
 
-## Project Structure
+- Build strong intuition for core data structures
+- Master algorithmic patterns through repetition
+- Improve time and space complexity decision-making
+- Track consistency and long-term growth
+
+## Folder Layout
 
 ```text
 DSA/
-├── CODE/
+├── CODE/               # All problem solutions live here
 │   └── .gitkeep
 ├── .gitignore
 └── README.md
 ```
 
-## Workflow
+## My Solve Loop
 
-1. Pick a problem.
-2. Solve it in `CODE/`.
-3. Commit with a meaningful message.
-4. Push and track growth over time.
+1. Pick a problem from a focused topic
+2. Write a clean first-pass solution
+3. Optimize for complexity and readability
+4. Commit with a clear message
+5. Push and keep momentum alive
 
-## Goals
+## Focus Topics
 
-- Build strong fundamentals in DSA
-- Improve coding speed and accuracy
-- Prepare for coding interviews and contests
-- Maintain discipline through consistent daily practice
+- Arrays and Strings
+- Linked Lists
+- Stacks and Queues
+- Trees and Graphs
+- Recursion and Backtracking
+- Dynamic Programming
+- Greedy and Binary Search
 
-## Current Status
+## Mission
 
-Repository initialized and ready for daily DSA uploads.
+Stay consistent enough that hard problems start looking familiar.
 
 ---
 
-Practice. Refactor. Repeat.
+`Practice -> Analyze -> Optimize -> Ship`
