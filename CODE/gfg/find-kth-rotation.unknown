@@ -1,0 +1,20 @@
+/**
+ * Problem: Find Kth Rotation
+ * Link: https://www.geeksforgeeks.org/problems/rotation4723/1
+ * Difficulty: Unknown
+ * Platform: Gfg
+ * Language: Unknown
+ * Tags: N/A
+ * Status: Accepted
+ */
+
+class Solution {
+  public:
+    int findKRotation(vector<int> &arr) {
+        for(int i=0;i<arr.size()-1;i++){
+            if(arr[i+1]<arr[i]) return i+1;
+        }
+        return 0;
+        
+    }
+};
