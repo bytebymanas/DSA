@@ -3,7 +3,7 @@
  * Link: https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1
  * Difficulty: Unknown
  * Platform: Gfg
- * Language: JavaScript
+ * Language: C++
  * Tags: N/A
  * Status: Accepted
  */
