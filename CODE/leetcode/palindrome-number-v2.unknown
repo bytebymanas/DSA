@@ -1,0 +1,30 @@
+/**
+ * Problem: Palindrome Number
+ * Link: https://leetcode.com/problems/palindrome-number/submissions/2053446687/
+ * Difficulty: Easy
+ * Platform: Leetcode
+ * Language: Unknown
+ * Tags: Math, My Lists
+ * Status: Accepted
+ */
+
+class Solution {
+public:
+    bool isPalindrome(int x) {
+        if(x<0){
+            return false;
+        }
+        long long z = 0 ; 
+        int k = x;
+        while(x!=0){
+            z = z*10 + (x % 10);
+            x = x/10; 
+        }
+        if(z == k){
+            return true;
+        }
+        
+       return false;
+        
+    }
+};
